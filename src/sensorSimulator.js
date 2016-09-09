@@ -21,7 +21,7 @@ var s= fs.createReadStream(config.file)
 
         // process line here and call s.resume() when rdy
         lineNr++;
-	console.log(lineNr);
+	//console.log(lineNr);
         res.write(line+"\n");
 
         setTimeout(function(){
